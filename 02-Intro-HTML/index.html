@@ -1,0 +1,64 @@
+<!-- Esta etiqueta define la versión de html que estamos usando -->
+ <DOCTYPE html>
+    <!-- Eesta etiqueta envuelve todo y es la etiqueta raiz -->
+     <html lan="es">
+        <!-- Aqui va toda la informacion que necesita el navegador sobre nuestra página -->
+        <head>
+            <title>Primera práctica html</title>
+        </head>
+        <body>
+            <!-- Dentro de esta etiqueta va todo el contenido que el usuario va a ver -->
+             <!--Titulo principal, solo un h1 por página  -->
+            <h1>Levis pantalones</h1>
+            <!-- subtitulos -->
+             <h2>subtitulo</h2>
+             <h3>subtitulo de subtitulo</h3>
+             <h4>subtitulo de subtitulo de subtitulo</h4>
+             <h5>subtitulo de subtitulo de subtitulo de subtitulo</h5>
+             <!-- Etiqueta que crea una regla de separación -->
+             <hr/>
+             <h3>Etiqueta p</h3>
+             <!-- Etiqueta que sirve para poner texto -->
+             <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iusto dolorem quod quis? Qui architecto assumenda animi accusamus, ratione quos atque officia beatae ipsa earum impedit labore numquam deleniti nostrum!
+             </p>
+             <hr/>
+             <h3>Etiqueta anchor</h3>
+             <a href="https://github.com/OscarOLopez" target="_blank">Mi github</a>
+             <h3>Listas</h3>
+             <!-- Los elementos de esta lista tienen un orden especifico semantico -->
+             <ol>
+                <h4>Lista ordenada</h4>
+                <!-- Los elementos li son elementos que van dentro de nuestra lista -->
+                <li>Perros</li>
+                <li>Gatos</li>
+                <li>Tortugas</li>
+             </ol>
+             <!-- Los elementos de esta lista NO tienen un orden especifico semantico -->
+             <ul>
+                <h4>Lista desordenada</h4>
+                <li>Té Verde</li>
+                <li>Café</li>
+                <li>Agua</li>
+                <li>Té negro</li>
+             </ul>
+             <hr/>
+             <h2>Imagenes</h2>
+             <h4>Imagen de internet con URL</h4>
+             <img src="https://i0.wp.com/www3.gobiernodecanarias.org/medusa/ecoblog/crodalf/files/2020/10/universo-1.jpg?fit=640%2C640" alt="Dibujo de universo" width="250px" height="250px">
+             <h4>Imagen local en la misma carpeta del HTML</h4>
+             <img src="./images.jpg" alt="Foto del universo" width="250px" height="250px">
+             <h3>Aquí hay un div</h3>
+             <!-- Esta etiqueta sirve para contener otras etiquetas -->
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit saepe at fugit, sapiente minima cumque distinctio dolores sequi fuga, quae doloribus aperiam dignissimos velit facere, dolorem natus rem quaerat architecto.</p>
+                <img src="data:image/jpeg;base64,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" alt="Estrella">
+            </div>
+            <hr/>
+            <h3>Etiqueta span</h3>
+            <span>Wombat</span>
+            <p>Lorem ipsum <span style="color: blueviolet;">dolor sit amet</span> consectetur adipisicing elit. Laudantium obcaecati dolore rem debitis dolor nesciunt cum ipsum, sed eos fugiat? Sapiente consectetur aliquam dicta quis quo quae repudiandae dolorum nemo.</p>
+            
+        </body>
+     </html>
+ </DOCTYPE>
