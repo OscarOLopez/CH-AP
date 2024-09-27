@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+div{
+    width: 50%;
+    background-color: red;
+    height: 100px;
+}
+
+div > div{
+    background-color: green;
+    width: 20%;
+}
+
+h1{
+    text-align: end;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: wheat;
+    font-family: 'Edu Australia VIC WA NT Hand Dots';
+}
+h2{
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: bold;
+    color: rgb( 250, 20, 250 );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 900;
+    color:  #ff4d4a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+span{
+    background-color: red;
+}
+
+section{
+    background-color: green;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#section1{
+    background-color: wheat;
+}

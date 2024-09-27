@@ -1,0 +1,23 @@
+caption{
+    background-color: yellow;
+    border: 2px solid black;
+    border-bottom: none;
+}
+thead, tfoot{
+    background-color: aqua;
+    color: white;
+}
+tbody > tr:nth-child(even){
+    background-color: wheat;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-top: none;
+}
+
+td{
+    border: 2px solid red;
+}
+
