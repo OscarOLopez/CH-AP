@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <label for="text">Nombre</label>
+        <input type="text" placeholder="aqui va tu nombre" id="text" pattern="\w{3,16}">
+        <fieldset>
+            <legend>Selecciona tu gen</legend>
+            <label for="femcheck">Fem</label>
+            <input type="checkbox" name="femcheck" id="" value="fem">
+            <label for="boycheck">Boy</label>
+            <input type="checkbox" name="boycheck" id="" value="boy">
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona tu transporte</legend>
+            <label for="radio">Carro</label>
+            <input type="radio" name="radio" id="rad-carro" value="carro" checked>
+            <label for="radio">Moto</label>
+            <input type="radio" name="radio" id="rad-moto" value="moto">
+            <label for="radio">Bici</label>
+            <input type="radio" name="radio" id="rad-bici" value="bici">
+        </fieldset>
+        <label for="email">Correo electronico</label>
+        <input type="email" name="email" placeholder="ejemplo@servidor.com" id="email" required>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="18" max="99" placeholder="edad">
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pas">
+        <input type="file" name="" id="">
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar</button>
+    </form>
+</body>
+</html>
