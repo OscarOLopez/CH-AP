@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    flex-wrap: wrap;
+    min-height: 100dvh;
+}
+.flex-container{
+    background-color: wheat;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.flex-item{
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.item1{
+    background-color: green;
+    order: 2;
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+
+.item2{
+    background-color: white;
+    order: 1;
+    flex-basis: 50px;
+}
+
+.item3{
+    background-color: red;
+    order: 0;
+    flex-shrink: 2;
+}

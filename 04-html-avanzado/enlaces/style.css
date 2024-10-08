@@ -21,6 +21,9 @@ a{
 header{
     border-bottom: 2px solid black;
     padding: 20px;
+    position: fixed;
+    background-color: cadetblue;
+    width: 100dvw;
 }
 
 main{
@@ -36,3 +39,12 @@ header a:hover{
     color: white;
 }
 
+#section-1{
+    margin-top: 50px;
+}
+button{
+    background-color: black;
+}
+button a{
+    color: white;
+}

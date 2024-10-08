@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+}
+
+.container{
+    background-color: red;
+    position: relative;
+    margin-left: 50px;
+    height: 100px;
+}
+
+.item{
+    width:  50px;
+    aspect-ratio: 4/3;
+    display: inline-block;
+    
+}
+
+.item1{
+    background-color: aqua;
+    position: relative;
+    /* top: 150px; */
+    left: 20px;
+    right: 0px;
+    bottom: 20px;
+}
+
+.item2{
+    background-color: green;
+    /* Desaparece el elemento por completo */
+    display: none; 
+    /* visibility: hidden; */
+}
+
+.item3{
+    background-color: blue;
+}
+

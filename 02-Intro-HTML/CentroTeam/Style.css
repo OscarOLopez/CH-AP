@@ -6,8 +6,7 @@ p{
     font-size: 2rem;
     text-align: justify;
 }
-img{
-    margin-left: 20%;
+
     
 }
 h1{
@@ -35,3 +34,32 @@ li{
     list-style: none;
     align-self: start;
 }
+table{
+    margin: auto;
+}
+thead, tfoot{
+    background-color: #023040;
+    color: rgb(255, 255, 255);
+  }
+  
+  tbody > tr:nth-child(even){
+    background-color: #8ecae6;
+  }
+  
+  table{
+    border: 2px solid black;
+    border-collapse:separate;
+  }
+  
+  th{
+    border: 2px solid #023040;
+  }
+  
+  td{
+    border: 2px solid #023040;
+    width: 150px;
+  }
+  
+  caption{
+    caption-side: top;
+  }
